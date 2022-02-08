@@ -1,0 +1,16 @@
+CALLBACKS VS PROMESAS VS ASYNC/AWAIT
+
+CALLBACKS : Se puede correr en cualquier navegador sea antiguo o nuevo.
+- la composicion suele ser un poco tosca por la anidacion por ese se llega al concepto de callbacks hell.
+- tiene un flujo poco intuitivo.
+
+PROMESAS: Es facilmente enlazable.
+- No maneja excepciones, maneja catch.
+- si no se retorna el siguiente llamado puede haber muchos errores.
+- Requiere polify para que pueda funcionar en cualquier navegador.
+
+ASYNC/AWAIT : Se usa try catch, es mas facil de leer.
+- Hay que esperar que se hagan los llamados
+- Se necesita un polify.
+
+
